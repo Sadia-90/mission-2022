@@ -1,3 +1,6 @@
+.main-div{
+    padding: 100px;
+}
 .section{
    
     padding: 10px;
@@ -23,18 +26,22 @@
    text-align: justify;
 }
 .images{
+    width: 250px;
+    height: 250px;
    display: flex;
    background-image: url(./images/shapes/shape-1.png);
    background-repeat: no-repeat;
-   padding-left: 50px;
+   padding-left: 200px;
+
 
 }
 .button{
     font-size: 20px;
     padding: 5px;
     background-color: brown;
-    color: black;
+    color: rgb(243, 232, 232);
     border-radius: 5px;
+    text-decoration: none;
 }
 .text{
     text-align: center;
@@ -88,28 +95,33 @@ section{
     background-image: url(./images/shapes/shape-1.png);
     background-repeat: no-repeat;
     display: flex;
+    margin-left: 100px;
 }
-.group-study{
+.groups-study{
     text-decoration: none;
-    margin: 10px 10px 10px 10px;
     color: rgb(14, 2, 2);
     font-weight: 700;
-    padding: 10px 20px;
+    margin-left: 450px;
     font-size: 20px;
     border-radius: 5px;
+    width: 300px;
 }
 .another-parts{
     background-image: url(./images/shapes/shape-9.png);
     background-repeat: no-repeat;
     display: flex;
+    
+}
+.speace{
+    margin-left: 300px;
 }
 .pink-flower{
     width: 100%;
-    height: 200px;
+    height: 350px;
     box-shadow:10px 10px 30px rgba(134, 99, 12, 0.678);
     border: 5px solid darkred;
     border-radius: 20px;
-    background-image: url(./images/beautiful-pink-flower-anemones-fresh-260nw-1028135845.webp);
+    background-image: url(./images/f90076b6b53788820c3097dea3cccb2c.jfif);
     background-repeat: no-repeat;
     text-decoration: none;
     margin: 0px;
@@ -125,12 +137,21 @@ section{
     font-size: 30px;
     
  }
- .span1{
-    
+ .work{
+     text-align: center;
+     font-size: 100px;
      padding: 10px;
+ }
+ .last-one{
+      padding: 50px;
+      height: 150px;
+     background-color: rgb(13, 13, 15);
+     color: oldlace;
+     text-align: center;
+
+     
+ }
+ .color-c{
      color: brown;
-     font-size: xx-large;
  }
- .p-tag{
-     font-size: 5px;
- }
+ 
