@@ -9,8 +9,10 @@
 }
 .first-heading{
     width: 50%;
-
-    
+        
+}
+.margin{
+    border-left: 2px solid maroon;
 }
 .color1{
     color: maroon;
@@ -49,7 +51,7 @@ section{
 
 }
 .img1{
-    width: 300px;
+    width: 200px;
 }
 .div1{
    background-color: rgb(196, 230, 231);
@@ -57,10 +59,11 @@ section{
   border: 15px solid green;
   padding: 50px;
   margin: 20px;
+  border-radius: 5px;
   
 }
 .img2{
-    width: 300px;
+    width: 200px;
 }
 .div2{
     background-color: rgb(199, 219, 199);
@@ -68,9 +71,10 @@ section{
     border: 15px solid green;
     padding: 50px;
     margin: 20px;
+    border-radius: 5px;
 }
 .img3{
-    width: 300px;
+    width: 200px;
 }
 .div3{
   background-color: rgb(219, 171, 171);
@@ -78,4 +82,55 @@ section{
   border: 15px solid green;
   padding: 50px;
   margin: 20px;
+  border-radius: 5px;
 }
+.another-part{
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    display: flex;
+}
+.group-study{
+    text-decoration: none;
+    margin: 10px 10px 10px 10px;
+    color: rgb(14, 2, 2);
+    font-weight: 700;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.another-parts{
+    background-image: url(./images/shapes/shape-9.png);
+    background-repeat: no-repeat;
+    display: flex;
+}
+.pink-flower{
+    width: 100%;
+    height: 200px;
+    box-shadow:10px 10px 30px rgba(134, 99, 12, 0.678);
+    border: 5px solid darkred;
+    border-radius: 20px;
+    background-image: url(./images/beautiful-pink-flower-anemones-fresh-260nw-1028135845.webp);
+    background-repeat: no-repeat;
+    text-decoration: none;
+    margin: 0px;
+    text-align: right;
+    text-shadow: 10px 20px 10px brown;
+ }
+ .finish{
+     text-align: center;
+     width: 100%;
+     height: 100px;
+     background-color: rgb(5, 5, 7);
+     color: darkgray;
+    font-size: 30px;
+    
+ }
+ .span1{
+    
+     padding: 10px;
+     color: brown;
+     font-size: xx-large;
+ }
+ .p-tag{
+     font-size: 5px;
+ }
